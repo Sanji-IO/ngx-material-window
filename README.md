@@ -1,5 +1,7 @@
 # ngx-material-window
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Sanji-IO/ngx-material-window.svg)](https://greenkeeper.io/)
+
 ## Consuming library
 
 Install library
