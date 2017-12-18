@@ -29,8 +29,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:ci": "jest --runInBand",
-    "prepublish": "node scripts/prepublish.js",
-    "semantic-release": "semantic-release pre && npm publish dist && semantic-release post"
+    "prepublish-lib": "node scripts/prepublish.js",
+    "semantic-release": "semantic-release pre && npm run prepublish-lib && npm publish dist && semantic-release post"
   },
   "config": {
     "commitizen": {
