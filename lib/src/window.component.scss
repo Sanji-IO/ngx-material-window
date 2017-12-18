@@ -1,0 +1,31 @@
+.spinner-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+.spinner {
+  width: 35px;
+  height: 35px;
+  background-color: #fff;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+
+.ngx-mat-window {
+  > md-card {
+    padding: 0;
+  }
+}
+
+.ngx-mat-window-header {
+  color: rgba(0, 0, 0, 0.54);
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+.ngx-mat-window-header-title {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
