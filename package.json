@@ -29,7 +29,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:ci": "jest --runInBand",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "prepublish": "node scripts/prepublish.js",
+    "semantic-release": "semantic-release pre && npm publish dist && semantic-release post"
   },
   "config": {
     "commitizen": {
@@ -49,11 +50,7 @@
       "__TRANSFORM_HTML__": true
     },
     "setupTestFrameworkScriptFile": "<rootDir>/lib/jest.ts",
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "jest.ts",
-      "jest-global-mocks.ts"
-    ]
+    "testPathIgnorePatterns": ["/node_modules/", "jest.ts", "jest-global-mocks.ts"]
   },
   "dependencies": {
     "@angular/animations": "^5.1.1",
