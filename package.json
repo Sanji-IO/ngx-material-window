@@ -22,7 +22,7 @@
     "docs:serve": "npm run docs:build -- -s",
     "docs:watch": "npm run docs:build -- -s -w",
     "ng": "ng",
-    "lint": "tslint --project lib/src/tsconfig.es5.json lib/src/**/*.ts",
+    "lint": "tslint --project lib/tsconfig.es5.json lib/src/**/*.ts",
     "start": "ng serve",
     "build": "ng-packagr -p ng-package.json",
     "postbuild": "node scripts/postbuild.js",
@@ -50,11 +50,7 @@
       "__TRANSFORM_HTML__": true
     },
     "setupTestFrameworkScriptFile": "<rootDir>/lib/jest.ts",
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "jest.ts",
-      "jest-global-mocks.ts"
-    ]
+    "testPathIgnorePatterns": ["/node_modules/", "jest.ts", "jest-global-mocks.ts"]
   },
   "dependencies": {
     "@angular/animations": "^5.1.1",
