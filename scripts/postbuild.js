@@ -11,4 +11,6 @@ delete packageJson['devDependencies'];
 delete packageJson['dependencies'];
 delete packageJson['scripts'];
 delete packageJson['private'];
+delete packageJson['config'];
+delete packageJson['jest'];
 fs.writeFileSync('dist/package.json', JSON.stringify(packageJson, undefined, 2));
