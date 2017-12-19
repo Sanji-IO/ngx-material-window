@@ -3,6 +3,10 @@
   "version": "0.0.0-development",
   "license": "MIT",
   "private": true,
+  "main": "./bundles/sanji-io-ngx-material-window-ui.umd.js",
+  "module": "./esm5/sanji-io-ngx-material-window-ui.js",
+  "es2015": "./esm2015/sanji-io-ngx-material-window-ui.js",
+  "typings": "./sanji-io-ngx-material-window-ui.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/Sanji-IO/ngx-material-window"
