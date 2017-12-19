@@ -13,6 +13,7 @@ import { MatButton } from '@angular/material';
 import { NguiOverlayManager } from '@ngui/overlay';
 import { Observable } from 'rxjs/Observable';
 import { Subscription } from 'rxjs/Subscription';
+import 'rxjs/add/observable/fromEvent';
 
 import { NgxMaterialStateComponent } from './state.component';
 import { NgxMaterialWindowService } from './window.service';
