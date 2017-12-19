@@ -54,7 +54,11 @@
       "__TRANSFORM_HTML__": true
     },
     "setupTestFrameworkScriptFile": "<rootDir>/lib/jest.ts",
-    "testPathIgnorePatterns": ["/node_modules/", "jest.ts", "jest-global-mocks.ts"]
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "jest.ts",
+      "jest-global-mocks.ts"
+    ]
   },
   "dependencies": {
     "@angular/animations": "^5.1.1",
@@ -78,6 +82,7 @@
     "@angular/platform-browser": "^5.1.1",
     "@angular/platform-browser-dynamic": "^5.1.1",
     "@angular/router": "^5.1.1",
+    "@compodoc/compodoc": "^1.0.5",
     "@types/jest": "^21.1.8",
     "codelyzer": "^4.0.2",
     "commitizen": "^2.9.6",
