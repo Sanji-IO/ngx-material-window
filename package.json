@@ -22,7 +22,7 @@
     "docs:serve": "npm run docs:build -- -s",
     "docs:watch": "npm run docs:build -- -s -w",
     "ng": "ng",
-    "lint": "tslint --project lib/tsconfig.es5.json lib/src/**/*.ts",
+    "lint": "tslint --project lib/tsconfig.es5.json",
     "start": "ng serve",
     "build": "ng-packagr -p ng-package.json",
     "postbuild": "node scripts/postbuild.js",

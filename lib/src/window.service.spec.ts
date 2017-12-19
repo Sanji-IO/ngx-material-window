@@ -1,5 +1,5 @@
 import { NgxMaterialWindowService } from './window.service';
-import { Subject } from 'rxjs';
+import { Subject } from 'rxjs/Subject';
 
 describe('Service: NgxMaterialService', () => {
   let service;

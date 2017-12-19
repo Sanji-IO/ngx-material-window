@@ -11,7 +11,8 @@ import {
 } from '@angular/core';
 import { MatButton } from '@angular/material';
 import { NguiOverlayManager } from '@ngui/overlay';
-import { Observable, Subscription } from 'rxjs';
+import { Observable } from 'rxjs/Observable';
+import { Subscription } from 'rxjs/Subscription';
 
 import { NgxMaterialStateComponent } from './state.component';
 import { NgxMaterialWindowService } from './window.service';
